@@ -1,22 +1,19 @@
 #include <stdio.h>
- void main()
 
+void main()
  {
-
-    float money;
-    float years;
-    float to_pay;
-
+    float dinero;
+    float axos;
+    float a_pagar;
 
     printf("Cuanto dinero desea solicitar?\n");
-    scanf("%f",&money);
-
-    printf("Cuantos anos vas a tardar en pagarlo?\n");
-    scanf("%f",&years);
-
-    to_pay = money * 0.27 * years;
-
-    printf("Vas a tener que pagar de intereses \n$%f ",to_pay);
-
+    scanf("%f",&dinero);
+    
+    printf("Cuantos a%cos vas a tardar en pagarlo?\n", 164);
+    scanf("%f",&axos);
+  
+    a_pagar = dinero * 0.27 * axos;
+  
+    printf("Vas a tener que pagar de intereses \n$%f ",a_pagar);
 
  }
